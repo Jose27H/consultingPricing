@@ -37,6 +37,7 @@ export default function ContactPage() {
           console.log(result.text);
           document.getElementById("wholeForm").reset();
           alert("Message Sent Succesfully");
+          alert("Message Sent Succesfully");
           window.location.href = "/";
         },
         (error) => {
@@ -49,7 +50,7 @@ export default function ContactPage() {
     <div className="bg-gray-600">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <div className="relative bg-white shadow-xl">
-          <h2 className="sr-only">Contact us</h2>
+          <h2 className="sr-only">Contact us!</h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3">
             {/* Contact information */}
