@@ -319,7 +319,7 @@ export default function Example() {
                             </p>
                           </div>
                         </div>
-                        <a
+                        <button
                           onClick={() => handleClick(plan.title)}
                           className={classNames(
                             plan.featured
@@ -329,7 +329,7 @@ export default function Example() {
                           )}
                         >
                           Learn More
-                        </a>
+                        </button>
                       </div>
                     </div>
                     <h4 className="sr-only">Features</h4>
