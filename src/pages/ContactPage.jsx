@@ -37,7 +37,7 @@ export default function ContactPage() {
           console.log(result.text);
           document.getElementById("wholeForm").reset();
           alert("Message Sent Succesfully");
-          alert("Message Sent Succesfully");
+
           window.location.href = "/";
         },
         (error) => {
