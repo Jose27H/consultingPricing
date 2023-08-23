@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="relative bg-gray-600 h-screen p-8  overflow-hidden">
+    <div className="relative bg-red-600 h-screen p-8  overflow-hidden">
       <div className=" w-full  max-w-7xl    mx-auto">
         <div className="relative bg-gray-600 p-4 z-10  pb-8  sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
